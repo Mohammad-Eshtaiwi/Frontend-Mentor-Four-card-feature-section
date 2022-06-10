@@ -162,6 +162,27 @@ header h1 {
   background-color: var(--blue);
 }
 
+@media screen and (min-width: 400px) {
+  body {
+    line-height: 3rem;
+  }
+  header p:first-of-type,
+header h1 {
+    line-height: 4rem;
+  }
+  header p:first-of-type {
+    margin-bottom: 2.6rem;
+  }
+  header h1 {
+    margin-bottom: 1.8rem;
+  }
+  .cards > div h2 {
+    margin-bottom: 1.1rem;
+  }
+  .cards > div p {
+    margin-bottom: 4.5rem;
+  }
+}
 @media screen and (min-width: 600px) {
   .cards {
     grid-template-columns: 1fr 1fr;
